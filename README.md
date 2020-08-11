@@ -4,13 +4,15 @@
 
 This directory is a brief example of a [React](https://reactjs.org/) app with [Serverless Functions](https://vercel.com/docs/v2/serverless-functions/introduction) that can be deployed with Vercel and zero configuration.
 
-## Deploy Your Own
-
-Deploy your own React project, along with Serverless Functions, with Vercel.
-
+## Deploy and setup
+- Setup from importing from CRA (create react app) from vercel
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/vercel/vercel/tree/master/examples/create-react-app-functions)
-
-_Live Example: https://create-react-app.now-examples.now.sh/_
+- Setup package json with newer/lastest version of react, react-dom, react-scripts
+- Replace on src folder with your code, when push to `master` or `main` branch, it will automatically building to Continous Integration (CI)
+- [Riventus vercel app](https://riventus.vercel.app)
+<!-- ## Deploy Your Own
+Deploy your own React project, along with Serverless Functions, with Vercel.
+_Live Example: https://create-react-app.now-examples.now.sh/_ -->
 
 ### How We Created This Example
 
